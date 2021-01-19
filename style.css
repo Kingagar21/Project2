@@ -1,0 +1,159 @@
+@charset "utf-8";
+body{
+    bacground-color: #6576FF;
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 25px;
+    background-image: url(Images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1600px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#container {
+    width: 768px;
+    height: 1532px;
+    background-color: rgba(255,255,255,1.00);
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    list-style-image: none;
+}
+/*Float the Aside so it displays next to Main*/
+aside {
+    width: 150px;
+    height: 1180px;
+    float: left;
+    background-color: rgba(2,255,0,1.00);
+    padding-top: 10px;
+}
+aside h3{
+    color: rgba(255,0,4,1.00);
+
+	
+}
+nav {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    width: 768px;
+    height: 50px;
+    display: inline;
+    list-style-type: none;
+
+
+}
+
+
+img {
+    float: right;
+
+
+
+}
+
+
+
+header{
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so both line up.*/
+main {
+    width: 598px;
+    height: 610px;
+    float: left;
+    background-color: rgba(255,255,255,1.00);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#container nav li {
+    display: inline;
+    width: 60px;
+    font-family: 'birra-2', serif;
+    margin: 0px 40px 0px 0px;
+    font-size: 24px;
+}
+#container nav ul {
+    margin-left: 13px;
+    width: 727px;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: rgba(255,196,0,1.00);
+    float: left;
+}
+
+h1 {
+    color: #00FFF4;
+   font-family: acuta,serif;
+font-weight: 200;
+font-style: normal;
+}
+
+h3 {
+	font-size:12pt;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+article {
+	font-family: acuta,serif;
+font-weight: 200;
+font-style: normal;
+}
+
+article h1 {
+}.FloatLeft {
+    float: left;
+}
+body nav {
+    width: 768px;
+    height: 50px;
+}
+nav a:link {
+    color: #6BE7FF;
+    text-decoration: none;
+	padding:10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #B937FF;
+	padding:10px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#6BE7FF;
+	padding:10px;
+	border-radius:20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+	padding:10px;
+}
+.submit_btn   {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(107,231,255,1.00);
+    color: rgba(255,255,255,1.00);
+    font-size: 15px;
+    
+}
+.submit_btn:hover
+{ -webkit-box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+    box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+}
